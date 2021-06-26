@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+  }
+  header {
+    position: fixed;
+    position: 0px;
+  }
+  .menu {
+    background-color: green;
+    width: 100%;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+  }
+  .menu a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    padding: 14px;
+  }
+  #logo {
+    width: 90px;
+    height: 80px;
+    float: left;
+    position: fixed;
+
+  }a:hover{
+    background-color: white;
+    transition: background-color 0.7s;
+    color: black;
+  }
